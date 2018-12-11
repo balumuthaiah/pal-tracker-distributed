@@ -5,7 +5,8 @@ applications:
   - route: allocations-pal-bms.apps.pcf.paltraining.perficient.com
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-bms.apps.pcf.paltraining.perficient.com
+#  env:
+#    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-bms.apps.pcf.paltraining.perficient.com
   services:
   - tracker-allocations-database
+  - tracker-service-registry
